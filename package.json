@@ -1,0 +1,28 @@
+{
+  "name": "@theorylabs/struct",
+  "version": "0.0.1",
+  "description": "Fork of the fantastic Superstruct library. Meant for use across ThedoryLabs app/libs, but easy drop in replacement for superstruct if using in your own projects. Provides a simple wrapper for interfacing with original lib's api.",
+  "repository": "https://github.com/TheoryLabs/Struct.git",
+  "author": "Branden Dane <Dane@TheoryLabs.dev> (https//TheoryLabs.dev)",
+  "license": "MIT",
+  "private": false,
+  "main": "./src/index.js",
+  "module": "./src/main.js",
+  "scripts": {
+    "reset": "echop 'TODO: RESET SCRIPT'",
+    "clean": "echo 'TODO: CLEAN SCRIPT'",
+    "dev": "NODE_ENV='deveopment' echo 'TODO: DEV SCRIPT'",
+    "examples:require-lib": "NODE_ENV='deveopment' node ./examples/requireLib.js",
+    "examples:import-lib": "NODE_ENV='deveopment' node -r esm ./examples/importLib.js",
+    "test": "echo 'TODO: TEST SCRIPT'",
+    "build": "NODE_ENV='production' echo 'TODO: BUILD SCRIPT'",
+    "deploy:prep-lib": "echo 'TODO'",
+    "deploy:prep-repository": "echo 'TODO'",
+    "deploy:prep-registry": "echo 'TODO'",
+    "deploy": "echo 'TODO: PUBLISH'"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "superstruct": "^0.15.2"
+  }
+}
